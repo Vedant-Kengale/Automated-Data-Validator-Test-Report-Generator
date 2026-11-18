@@ -1,0 +1,60 @@
+[DEFECT FOUND] Invalid data in record: InvalidUser
+[DEFECT FOUND] Invalid data in record: Rahul
+
+--- TEST EXECUTION REPORT ---
+Total Test Cases: 3
+Passed: 1
+Failed (Defects): 2
+-----------------------------
+
+---
+
+## Step 2: Create the sample_output.txt file
+
+Create a file named `sample_output.txt` and paste this:
+
+---
+
+## Step 3: Upload to GitHub (Choose ONE method)
+
+### Method A: Via GitHub Website (Easiest - 2 minutes)
+
+1. Go to [github.com](https://github.com) and log in
+2. Click the **+** icon (top right) → **New repository**
+3. Repository name: `Data-Validator-Test-Report-Generator`
+4. Description: `C++ tool for automated data validation and test report generation`
+5. Check **Add a README file**
+6. Click **Create repository**
+7. Click **Add file** → **Upload files**
+8. Drag and drop your 3 files:
+   - `test_validator.cpp`
+   - `README.md` (replace the auto-generated one)
+   - `sample_output.txt`
+9. Click **Commit changes**
+
+**Done!** Your repository is live.
+
+---
+
+### Method B: Via Command Line (If you prefer terminal)
+
+```bash
+# 1. Create a new folder
+mkdir Data-Validator-Test-Report-Generator
+cd Data-Validator-Test-Report-Generator
+
+# 2. Initialize git
+git init
+
+# 3. Create your files (test_validator.cpp, README.md, sample_output.txt)
+
+# 4. Add all files
+git add .
+
+# 5. Commit
+git commit -m "Initial commit: Data validator and test report generator"
+
+# 6. Create repository on GitHub first, then:
+git remote add origin https://github.com/YOUR_USERNAME/Data-Validator-Test-Report-Generator.git
+git branch -M main
+git push -u origin main
